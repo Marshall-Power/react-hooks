@@ -28,7 +28,7 @@ function FavoriteAnimal({animal, onAnimalChange}) {
 
 // 🐨 uncomment this
 function Display({name, animal}) {
-  return <div>{`Hey ${name}, your favorite animal is: ${animal}!`}</div>
+  return <div>{`Your favorite animal is: ${animal}!`}</div>
 }
 
 // 💣 remove this component in favor of the new one
